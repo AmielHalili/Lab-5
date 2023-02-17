@@ -19,7 +19,7 @@ int length(node* head)
 }
 // parses the string in the linkedList
 //  if the linked list is head -> |a|->|b|->|c|
-//  then toCString function will return "abc"
+//  then toCString function will return "abc".
 char* toCString(node* head)
 {
     node* temp = head;
